@@ -16,6 +16,13 @@
       <button id="exportBtn" type="button">导出观察清单</button>
     </header>
 
+    <div id="conflictPane" class="conflict-pane" hidden></div>
+
+    <div id="retryBanner" class="retry-banner" hidden>
+      <span>写入失败，已从最近检查点恢复，未保存的操作可重试（重试沿用首次结果，不会重复记账）。</span>
+      <button id="retryBtn" type="button">重试</button>
+    </div>
+
     <section class="layout">
       <form id="sampleForm" class="editor">
         <h2>样本录入</h2>
@@ -56,6 +63,8 @@
         <div id="comparePane" class="compare-pane"></div>
       </aside>
     </section>
+
+    <footer id="statusBar" class="statusbar"></footer>
   </main>
   <script src="./app.js"></script>
 </body>
