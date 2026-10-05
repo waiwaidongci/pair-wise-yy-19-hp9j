@@ -1,0 +1,9 @@
+{
+  "name": "thin-section-index",
+  "version": "2.0.0",
+  "description": "岩芯薄片显微照片索引台：可续作操作账 + 多标签页合并",
+  "private": true,
+  "scripts": {
+    "test": "node --test test/"
+  }
+}
